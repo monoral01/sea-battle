@@ -1,0 +1,16 @@
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #1f5318;
+  margin-top: 60px;
+  @font-face {
+  font-family: "myfont"; 
+  src: url("../fonts/myfont.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  }
+}
+H1{
+  font-family: myfont;
+}

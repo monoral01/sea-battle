@@ -1,0 +1,10 @@
+<template>
+<H1 align = "center">Hello, Sea Battle!</H1>
+</template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
+
