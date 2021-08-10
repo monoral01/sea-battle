@@ -6,9 +6,7 @@ body{
   background-color: #E1F5FE;
 }
 #start_text{
-  position:relative;
-  top:-70px;
-  width:22%;
+  box-sizing: content-box;
   font-style: normal;
   font-family: "myfont";
   font-weight: normal;
@@ -17,17 +15,22 @@ body{
   color: #01579B;
   text-shadow: -7px 7px 0px #002F6C;
 }
+#main{
+  display: flex;
+  flex-direction: row;
+}
 #left{
-  margin-left: 13%;
-  margin-top:35px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#ship{
 }
 #right{
-  position:absolute;
-  right:27%;
-  top:25%;  
-  width: 5%;
+  flex-direction: column;
 }
+
 #start{
+  cursor: pointer;
   font-style: normal;
   font-family: "myfont";
   font-weight: normal;
@@ -36,6 +39,26 @@ body{
   color:cornsilk;
   background-color:#01579B;
   box-shadow: -3px 3px 0px #002F6C;
+}
+#back{
+  cursor: pointer;
+  font-style: normal;
+  font-family: "myfont";
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 26px;
+  color:cornsilk;
+  background-color:#01579B;
+  box-shadow: -1.7px 1.7px 0px #002F6C;
+}
+#set-fields{
+
+}
+.field-left{
+
+}
+.field-right{
+
 }
 @font-face {
   font-family: "myfont"; 
