@@ -9,10 +9,10 @@ const routes = [
   },
   {
     path: "/setfields",
-    component:SetFields, 
+    component: SetFields,
   },
   {
-    path:"/game",
+    path: "/game",
     component: Game,
   },
 ];
